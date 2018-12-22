@@ -15,8 +15,6 @@ if(length(miss_pkgs)>0){
 invisible(lapply(pkgs,library,character.only=TRUE))
 
 
-
-
 ## Import data
 
 obt <- read.csv("C:/Users/dmunene/OneDrive - Dalberg Global Development Advisors/RESSOL/Personal/Data Analysis/I&M-DS/Obituaries_Dataset.csv")
@@ -42,8 +40,6 @@ obt$an_date <- lubridate::mdy(obt$Announcement)
 obt$dt_date <- lubridate::mdy(obt$Death)
 
 obt$br_date <- lubridate::mdy(obt$Burial)
-
-
 
 
 #compute death to announce and death to burial
@@ -93,8 +89,6 @@ summary(fit1)
 
 
 ggsurvplot(fit1, data = obt2,pval = T)
-
-
 
 
 ###### Cleaning continued
