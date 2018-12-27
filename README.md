@@ -8,7 +8,7 @@ Using p <0.05 for testing statistical significance, then none of the genders inv
 
 ![alt text](SurvivalCurve.png)
 
-![alt text](ModelAccuracies.png)
+![alt text](ModelAccuraciesV2.png)
 
-![alt text](VariableImportance.png)
+![alt text](VariableImportanceV2.png)
 
